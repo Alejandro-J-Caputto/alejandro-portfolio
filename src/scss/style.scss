@@ -1,1 +1,25 @@
+
+//ABSTRACTS
+@import './abstracts/custom';
+@import './abstracts/mixins';
 @import './abstracts/variables';
+
+//BASE
+
+//TYPOGRAPHY
+@import 'typography/typography';
+//LAYOUT
+@import './layout/footer';
+@import './layout/navbar';
+//COMPONENTS
+@import './components/animations';
+@import './components/buttons';
+//SECTIONS
+@import './sections/faq';
+@import './sections/contactMe';
+@import './sections/myDescription';
+@import './sections/myQuote';
+@import './sections/portfolio';
+@import './sections/technologies';
+
+
