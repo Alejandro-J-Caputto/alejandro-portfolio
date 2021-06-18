@@ -5,7 +5,7 @@
 @import './abstracts/variables';
 
 //BASE
-
+@import './base/base';
 //TYPOGRAPHY
 @import 'typography/typography';
 //LAYOUT
@@ -16,6 +16,7 @@
 @import './components/buttons';
 //SECTIONS
 @import './sections/faq';
+@import './sections/intro';
 @import './sections/contactMe';
 @import './sections/myDescription';
 @import './sections/myQuote';
