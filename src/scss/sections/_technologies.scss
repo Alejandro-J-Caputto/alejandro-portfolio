@@ -1,0 +1,27 @@
+.skills {
+  padding:5rem;
+  @include media-breakpoint-down(sm) {
+    padding: unset;
+  }
+}
+.skills-logo {  
+  justify-content: center;
+  @include media-breakpoint-down(sm) {
+    .skills__logo-container {
+      margin-top: 4rem;
+      img {
+        height: 5rem;
+      }
+    }
+  }
+}
+.skills__logo-container {
+  margin-top: 4rem;
+  // width: fit-content;
+  img {
+    height: 10rem;
+  }
+}
+.skills-logo__col {
+  width: unset;
+}
